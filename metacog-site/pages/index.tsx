@@ -1,4 +1,4 @@
-import cards from '../../cards.json';
+import cards from '../cards.json';
 import Link from 'next/link';
 
 export default function CardList() {
