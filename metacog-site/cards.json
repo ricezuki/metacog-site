@@ -1,0 +1,16 @@
+[
+  {
+    "id": "01",
+    "name": "観察者アレフ",
+    "image": "/cards/01.png",
+    "text": "敵の手札をコピー",
+    "hidden": false
+  },
+  {
+    "id": "13",
+    "name": "？？？",
+    "image": "/cards/13.png",
+    "text": "これは秘密だ",
+    "hidden": true
+  }
+]
