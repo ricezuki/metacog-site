@@ -6,6 +6,13 @@
     "text": "敵の手札をコピー",
     "hidden": false
   },
+    {
+    "id": "02",
+    "name": "観察者アレフの弟",
+    "image": "/cards/01.png",
+    "text": "敵の手札をコピー",
+    "hidden": false
+  },
   {
     "id": "13",
     "name": "？？？",
