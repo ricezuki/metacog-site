@@ -13,6 +13,7 @@ export default function CardList() {
           </Link>
         ))}
       </div>
+      <p><Link href="/">← トップページへ戻る</Link></p>
     </div>
   );
 }
