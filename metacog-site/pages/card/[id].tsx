@@ -18,6 +18,8 @@ export default function CardPage({ card }) {
       <h1>{card.name}</h1>
       <img src={card.image} alt={card.name} style={{ width: 300 }} />
       <p>{card.text}</p>
+      <p><Link href="/cards">← カード一覧に戻る</Link></p>
+      <p><Link href="/">← トップページへ戻る</Link></p>
     </div>
   );
 }
