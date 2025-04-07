@@ -1,4 +1,5 @@
 import cards from '../../cards.json';
+import Link from 'next/link';
 
 export async function getStaticPaths() {
   return {
