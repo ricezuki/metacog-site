@@ -8,10 +8,13 @@ export default function CardList() {
       <h1>カード一覧</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {visibleCards.map(card => (
-          <Link key={card.id} href={`/card/${card.id}`}>
-            <img src={card.image} alt={card.name} style={{ width: 150, margin: 8 }} />
-          </Link>
-        ))}
+  <Link key={card.id} href={`/card/${card.id}`} style={{ textAlign: 'center', margin: 8 }}>
+    <div>
+      <img src={card.image} alt={card.name} style={{ width: 150 }} />
+      <p>{card.name}</p>
+    </div>
+  </Link>
+))}
       </div>
       <p><Link href="/">← トップページへ戻る</Link></p>
     </div>
